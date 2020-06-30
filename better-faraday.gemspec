@@ -13,6 +13,6 @@ Gem::Specification.new do |s|
   s.files                 = `git ls-files -z`.split("\x0")
   s.test_files            = `git ls-files -z -- {test,spec,features}/*`.split("\x0")
   s.require_paths         = ["lib"]
-  s.add_dependency "faraday", "~> 0.12"
-  s.add_dependency "activesupport", ">= 4.0", "< 6.0"
+  s.add_dependency "faraday", ">= 0.12"
+  s.add_dependency "activesupport", ">= 4.0"
 end
